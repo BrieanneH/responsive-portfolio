@@ -1,0 +1,166 @@
+html {
+
+    position: relative;
+    min-height: 100%; 
+   }
+   
+   .body {
+       
+       background-image: url("./images/circles-light.png");
+       
+       height: 100vh; 
+       padding: 0px;
+       margin: 0 auto;
+       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+       background-size: cover;
+       
+       
+   }
+   .header{
+       width: 100%;
+      
+   }
+   
+   #navbarText{
+       float: right;
+       margin-right: 40px;
+       padding: 10px;
+     
+     }
+   
+   
+   
+   .navbar {
+       background-color: #fff;
+       border-bottom: 7px solid #cccc;
+       
+   }
+   
+   
+   
+   
+   
+   h1{
+      
+      background-color: #4aaa;
+      color:#fff;
+      padding: 10px;
+      position: absolute;
+      bottom: 10px;
+   
+   
+   }
+   
+   h2{
+       color: #7777;
+       background-color: #fff;
+       text-align: left;
+       border-bottom: 4px solid #cccc;
+   }
+   .content-box, .works-cited, .contact-content {
+       position: relative;
+       border: 4px solid #cccc;
+       background-color: white;
+       width: 960px;
+       height:100%;
+       padding:15px;
+       margin:0 auto;
+       margin-top: 20px;
+       margin-bottom:40px;
+       box-sizing: content-box;
+       
+       
+   }   
+   p{
+       color:white;
+       background-color:#4aaa;
+       position: absolute;
+       bottom: 0;
+       width: 61%;
+       padding: 20px; 
+   
+   }
+   
+   
+   
+   .my-photo{
+       position: relative;
+       float: left;
+   }
+   footer{
+       position: fixed;
+       bottom: 0;
+       width: 100%;
+       height: 60px; 
+       line-height: 40px;
+       background-color: #cccc;
+   
+       
+   }
+   
+   .website-img{
+       position: static;
+       float: left;
+       top: auto 0px;
+       border:4px solid #cccc;
+    
+   
+   }
+   
+   .scratch-img{
+       position: static;
+       float: left;
+       left: 100px;
+       border:4px solid #cccc;
+   
+   
+   
+   }
+   
+   
+   
+   
+   .debug-img{
+      position: static;
+      float: left;
+      top: auto 0px;
+      left: 100px;
+      margin-top: 20px;
+       border:4px solid #cccc;
+   
+   }
+   
+   .passwordapp{
+       position: static;
+       float: left;
+       top: autopx;
+       left: 100px;
+       margin-top: 20px;
+        border:4px solid #cccc;
+   }
+   
+   .quizapp{
+       position: static;
+       float: left;
+       top: autopx;
+       left: 100px;
+       margin-top: 20px;
+        border:4px solid #cccc;
+   }
+   
+   .worksch{
+       position: static;
+       float: left;
+       top: autopx;
+       left: 100px;
+       margin-top: 20px;
+        border:4px solid #cccc;
+    
+   }
+   
+   
+   .clearfix::after{
+       Content:"";
+       Display: block;
+       Clear: both;
+   }
